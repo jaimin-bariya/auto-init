@@ -128,7 +128,7 @@ const addDirectivesInIndexCSS = (filePath, newContent) => {
 
 
 // Ask Questions
-const setup = async () => {
+export const setup = async () => {
 
     const answers = await inquirer.prompt([
         {

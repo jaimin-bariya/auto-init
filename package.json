@@ -1,6 +1,6 @@
 {
   "name": "@jaiminbariya/auto-init",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -9,11 +9,34 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli", "project-init", "auto-init", "react", "vite", "tailwind", "firebase"],
+  "keywords": [
+    "cli", 
+    "project-init", 
+    "auto-init", 
+    "react", 
+    "vite", 
+    "tailwind", 
+    "firebase"
+  ],
   "author": "Jaimin Bariya",
   "license": "MIT",
   "description": "A CLI tool for project initialization with React, Vite, Tailwind CSS, Firebase, and GitHub Actions.",
   "dependencies": {
     "inquirer": "^12.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimin-bariya/auto-init.git"
+  },
+  "homepage": "https://github.com/jaimin-bariya/auto-init#readme",
+  "bugs": {
+    "url": "https://github.com/jaimin-bariya/auto-init/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jaimin Bariya",
+      "email": "jaiminbariya.dev@gmail.com",
+      "url": "https://github.com/jaimin-bariya"
+    }
+  ]
 }
