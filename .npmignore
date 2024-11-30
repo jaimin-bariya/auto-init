@@ -1,0 +1,30 @@
+# .npmignore
+
+# Node modules directory (already ignored by default)
+/node_modules
+
+# Configuration files
+.env
+.vscode/
+.git/
+
+# Test or development files
+/tests/
+/__tests__/
+*.test.js
+*.spec.js
+
+# Log files
+*.log
+
+# Build files or compiled assets
+/dist/
+/build/
+/coverage/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Other files
+# README.md
