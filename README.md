@@ -1,100 +1,108 @@
 
 
-# auto-init-cloudboy
+# **@jaiminbariya/auto-init**
 
-`auto-init-cloudboy` is a command-line tool that simplifies setting up projects with common configurations for React, Tailwind CSS, Firebase, and GitHub Actions. This tool automates the process of creating React apps with Vite, installing Tailwind CSS, setting up Firebase, and configuring GitHub Actions for continuous integration and deployment (CI/CD).
+`@jaiminbariya/auto-init` is a **CLI tool** designed to streamline project setup with modern web development technologies like **React**, **Vite**, **Tailwind CSS**, **Firebase**, and **GitHub Actions**. It automates the initialization process, making it easy to start a new project with minimal manual configuration.
 
-### Features:
-- Automatically creates a **React app** with **Vite** as the base.
-- Installs and configures **Tailwind CSS** for styling.
-- Optionally sets up **Firebase** for backend functionality.
-- Optionally sets up **GitHub Actions** for CI/CD automation.
-- Customizable options for frontend and backend directories.
+## **Features**  
+- **React + Vite**: Quickly create a React app using Vite.  
+- **Tailwind CSS**: Automates Tailwind CSS installation and configuration.  
+- **Firebase Integration**: Optionally set up Firebase for backend services.  
+- **GitHub Actions**: Automatically configures CI/CD pipelines with GitHub Actions.  
+- **Flexible Project Structure**: Supports customizable directory names for frontend and backend.
 
-## Installation
+---
 
-You can use `auto-init-cloudboy` directly without installing it globally by using `npx`. To create a new project, simply run the following command in your terminal:
+## **Installation**
 
+### **Global Installation**  
+Install the package globally for easy access:  
 ```bash
-npx auto-init-cloudboy
+npm install -g @jaiminbariya/auto-init
+```  
+Then, run the tool using:  
+```bash
+auto-init
 ```
 
-Alternatively, if you'd like to install it globally, you can run:
-
+### **Using `npx` (No Global Installation Needed)**  
+You can also use it without installing globally:  
 ```bash
-npm install -g auto-init-cloudboy
+npx @jaiminbariya/auto-init
 ```
 
-Then you can use the tool by simply running:
+---
 
+## **Usage**
+
+Once you run the command, `auto-init` will guide you through a series of interactive prompts:
+
+1. **Frontend Setup**: Choose whether to create a React project.
+2. **Tailwind CSS**: Optionally add Tailwind CSS for styling.
+3. **Firebase**: Set up Firebase if needed.
+4. **GitHub Actions**: Enable CI/CD for automated deployments.
+
+### **Example Command**  
 ```bash
-auto-init-cloudboy
+auto-init
 ```
 
-## Usage
-
-Once you run the command, `auto-init-cloudboy` will guide you through a series of prompts to help you configure your project. The tool will ask you questions like:
-
-- Do you want to create a frontend project?
-- Would you like to add **Tailwind CSS**?
-- Would you like to set up **Firebase**?
-- Would you like to configure **GitHub Actions** for CI/CD?
-
-Based on your answers, it will automatically generate the required files, install dependencies, and set up the project structure.
-
-## Example
-
-After answering the prompts, the tool will:
-
-1. Create a **React app** using Vite.
-2. Install **Tailwind CSS** and initialize it.
-3. Set up **Firebase** if selected.
-4. Create a **GitHub Actions** workflow file for CI/CD.
-5. Organize the project with a custom **frontend** and **backend** directory structure.
-
-### Project Directory Structure
-
+### **Example Project Directory Structure**  
 ```
 /my-new-project
-  ├── /frontend         # Your frontend React app
+  ├── /frontend         # React app with Tailwind CSS
   │   ├── /src
-  │   ├── /public
   │   └── tailwind.config.js
-  └── /backend          # Optional backend setup
+  └── /backend          # Firebase or backend setup (optional)
 ```
 
-## Development
+---
 
-If you'd like to contribute to `auto-init-cloudboy`, you can fork the repository and create a pull request. Here's how you can set up your local development environment:
+## **Alternative Installation via `auto-init-cloudboy`**  
+If you prefer using an unscoped package:  
+```bash
+npm install -g auto-init-cloudboy
+```  
+This package wraps `@jaiminbariya/auto-init` and provides the same functionality with a simpler name.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/auto-init-cloudboy.git
-    ```
+---
 
-2. Navigate to the project directory:
-    ```bash
-    cd auto-init-cloudboy
-    ```
+## **Development**
 
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
+### **Contributing**  
+Contributions are welcome! Follow these steps to set up your local development environment:
 
-4. Run the tool locally:
-    ```bash
-    npm link
-    ```
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/jaiminbariya/auto-init.git
+   ```
+2. Navigate to the project directory:  
+   ```bash
+   cd auto-init
+   ```
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```
+4. Link the package globally for testing:  
+   ```bash
+   npm link
+   ```
+5. Run the CLI locally:  
+   ```bash
+   auto-init
+   ```
 
-Now, you can test your changes by running `auto-init-cloudboy` from any project folder.
+---
 
-## License
+## **License**
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
-## Acknowledgments
+---
 
-- Inspired by popular project initialization tools like `create-react-app` and `Vite`.
-- Thanks to the community for making Tailwind CSS, Firebase, and GitHub Actions widely adopted tools.
+## **Acknowledgments**
+
+- Inspired by popular tools like `create-react-app`, `Vite`, and `Tailwind CSS`.
+- Special thanks to the open-source community for Firebase and GitHub Actions support.  
 

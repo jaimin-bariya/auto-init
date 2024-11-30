@@ -1,18 +1,18 @@
 {
   "name": "@jaiminbariya/auto-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "auto-init-cloudboy": "./setup.js"
+    "auto-init": "./setup.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["cli", "project-init", "auto-init", "react", "vite", "tailwind", "firebase"],
+  "author": "Jaimin Bariya",
+  "license": "MIT",
+  "description": "A CLI tool for project initialization with React, Vite, Tailwind CSS, Firebase, and GitHub Actions.",
   "dependencies": {
     "inquirer": "^12.1.0"
   }
