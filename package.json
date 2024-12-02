@@ -1,5 +1,5 @@
 {
-  "name": "auto-init",
+  "name": "@jaiminbariya/auto-init",
   "version": "1.0.6",
   "main": "index.js",
   "type": "module",
