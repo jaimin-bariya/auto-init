@@ -7,15 +7,15 @@
     "auto-init": "./setup.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
-    "cli", 
-    "project-init", 
-    "auto-init", 
-    "react", 
-    "vite", 
-    "tailwind", 
+    "cli",
+    "project-init",
+    "auto-init",
+    "react",
+    "vite",
+    "tailwind",
     "firebase"
   ],
   "author": "Jaimin Bariya",
@@ -41,5 +41,8 @@
       "email": "jaiminbariya.dev@gmail.com",
       "url": "https://github.com/jaimin-bariya"
     }
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
