@@ -24,10 +24,10 @@ jobs:
       - name: Run tests
         run: npm test  # Skip this if you don't have tests
 
-      - name: Publish to GitHub Packages
-        run: npm run prepublishOnly
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+- name: Publish to GitHub Packages
+  run: npm publish --registry https://npm.pkg.github.com/ --quiet
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to npm
         run: npm run publish:public
