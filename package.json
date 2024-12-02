@@ -28,6 +28,9 @@
     "type": "git",
     "url": "git+https://github.com/jaimin-bariya/auto-init.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "https://github.com/jaimin-bariya/auto-init#readme",
   "bugs": {
     "url": "https://github.com/jaimin-bariya/auto-init/issues"
